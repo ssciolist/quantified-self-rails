@@ -7,10 +7,10 @@ describe 'Meals API' do
       meal.foods.create(name: 'Coconut donut', calories: 300)
       meal.foods.create(name: 'Saffron Rice', calories: 200)
 
-      delete "/api/v1/meals/#{meal.id}/foods/#{food.id}"
+      delete "/api/v1/meals/#{meal.id}/foods/1"
       success = JSON.parse(response.body)
 
-      expect(success['message']).to eq("Successfully added #{food.name} to #{meal.name}")
+      expect(success['message']).to eq("Successfully removed Coconut donut from #{meal.name}")
     end
   end
 
