@@ -18,6 +18,9 @@
 
 .byebug_history
 
+# Ignore coverage file
+/coverage/*
+
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
