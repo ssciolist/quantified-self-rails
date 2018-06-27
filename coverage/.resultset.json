@@ -83,6 +83,15 @@
         1,
         null,
         null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/meganarellano/turing/4module/projects/quantified-self-rails/app/serializers/meal_serializer.rb": [
+        1,
+        1,
         null
       ],
       "/Users/meganarellano/turing/4module/projects/quantified-self-rails/app/mailers/application_mailer.rb": [
@@ -92,6 +101,6 @@
         0
       ]
     },
-    "timestamp": 1530126797
+    "timestamp": 1530128732
   }
 }
