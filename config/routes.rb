@@ -2,8 +2,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   namespace :api do
     namespace :v1 do
-      resources :foods, only: [:index, :create, :show]
-      # get ':id', to: 'foods#show'
+      resources :foods, only: [:index, :create, :show, :update, :destroy]
     end
   end
 end
