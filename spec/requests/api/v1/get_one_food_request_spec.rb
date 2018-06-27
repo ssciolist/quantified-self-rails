@@ -11,8 +11,8 @@ describe 'Foods API' do
 
       food = JSON.parse(response.body)
 
-      expect(foods['name']).to eq('banana')
-      expect(foods['calories']).to eq(12)
+      expect(food['name']).to eq('Banana')
+      expect(food['calories']).to eq(12)
     end
   end
 end

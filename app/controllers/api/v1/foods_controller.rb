@@ -13,6 +13,10 @@ class Api::V1::FoodsController < ApplicationController
     end
   end
 
+  def show
+    render json: Food.find(params[:id])
+  end
+
   private
 
   def food_params
