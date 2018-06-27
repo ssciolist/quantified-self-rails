@@ -69,6 +69,11 @@
       ],
       "/Users/meganarellano/turing/4module/projects/quantified-self-rails/app/controllers/application_controller.rb": [
         1,
+        1,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/meganarellano/turing/4module/projects/quantified-self-rails/app/serializers/food_serializer.rb": [
@@ -87,6 +92,13 @@
         1,
         null,
         null,
+        1,
+        2,
+        2,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/meganarellano/turing/4module/projects/quantified-self-rails/app/serializers/meal_serializer.rb": [
@@ -101,6 +113,6 @@
         0
       ]
     },
-    "timestamp": 1530129399
+    "timestamp": 1530131222
   }
 }

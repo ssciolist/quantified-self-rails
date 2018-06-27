@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :foods, only: [:index, :create, :show, :update, :destroy]
       resources :meals, only: [:index] do
         get '/foods', to: 'meals#show'
+        post '/foods/:food_id', to: 'meals#update'
       end
     end
   end
