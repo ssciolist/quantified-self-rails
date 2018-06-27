@@ -6,7 +6,7 @@ describe 'Foods API' do
       create(:food)
       params = { 'food': { 'name': 'sweet decadent ice cream', 'calories': '800'} }
 
-      patch '/api/v1/foods/1'
+      patch '/api/v1/foods/1', params: params
 
       expect(response).to be_successful
 
@@ -20,9 +20,9 @@ describe 'Foods API' do
   context 'when I send a PATCH request to /api/v1/foods/:id with incorrect body params' do
     it '400 status code is returned' do
       create(:food)
-      params = { 'food': { 'calories': 'more please'} }
+      params = { 'food': { 'kosher': 'no'} }
 
-      patch '/api/v1/foods/1'
+      patch '/api/v1/foods/1', params: params
 
       expect(response.status).to eq(400)
     end
